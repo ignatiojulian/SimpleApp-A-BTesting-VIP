@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		93426F40280E6A8D00AC15BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F3F280E6A8D00AC15BA /* AppDelegate.swift */; };
 		93426F42280E6A8D00AC15BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F41280E6A8D00AC15BA /* SceneDelegate.swift */; };
-		93426F44280E6A8D00AC15BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F43280E6A8D00AC15BA /* ViewController.swift */; };
 		93426F47280E6A8D00AC15BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93426F45280E6A8D00AC15BA /* Main.storyboard */; };
 		93426F4A280E6A8D00AC15BA /* BTesting_VIP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93426F48280E6A8D00AC15BA /* BTesting_VIP.xcdatamodeld */; };
 		93426F4C280E6A8E00AC15BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93426F4B280E6A8E00AC15BA /* Assets.xcassets */; };
@@ -17,6 +16,25 @@
 		93426F5A280E6A8F00AC15BA /* BTesting_VIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F59280E6A8F00AC15BA /* BTesting_VIPTests.swift */; };
 		93426F64280E6A8F00AC15BA /* BTesting_VIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F63280E6A8F00AC15BA /* BTesting_VIPUITests.swift */; };
 		93426F66280E6A8F00AC15BA /* BTesting_VIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F65280E6A8F00AC15BA /* BTesting_VIPUITestsLaunchTests.swift */; };
+		93426F75280E6CBB00AC15BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F74280E6CBB00AC15BA /* HomeViewController.swift */; };
+		93426F77280E6CC600AC15BA /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F76280E6CC600AC15BA /* HomeWorker.swift */; };
+		93426F79280E6CCD00AC15BA /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F78280E6CCD00AC15BA /* HomeModels.swift */; };
+		93426F7B280E6CD100AC15BA /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F7A280E6CD100AC15BA /* HomeInteractor.swift */; };
+		93426F7D280E6CD700AC15BA /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F7C280E6CD700AC15BA /* HomePresenter.swift */; };
+		93426F7F280E6CDD00AC15BA /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F7E280E6CDD00AC15BA /* HomeRouter.swift */; };
+		93426F83280E6E7400AC15BA /* PurchaseFlowABTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F82280E6E7400AC15BA /* PurchaseFlowABTest.swift */; };
+		93426F90280E6F0D00AC15BA /* VariationAPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8A280E6F0D00AC15BA /* VariationAPresenter.swift */; };
+		93426F91280E6F0D00AC15BA /* VariationAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8B280E6F0D00AC15BA /* VariationAViewController.swift */; };
+		93426F92280E6F0D00AC15BA /* VariationARouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8C280E6F0D00AC15BA /* VariationARouter.swift */; };
+		93426F93280E6F0D00AC15BA /* VariationAWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8D280E6F0D00AC15BA /* VariationAWorker.swift */; };
+		93426F94280E6F0D00AC15BA /* VariationAInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8E280E6F0D00AC15BA /* VariationAInteractor.swift */; };
+		93426F95280E6F0D00AC15BA /* VariationAModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F8F280E6F0D00AC15BA /* VariationAModels.swift */; };
+		93426F9C280E6F1C00AC15BA /* VariationBWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F96280E6F1C00AC15BA /* VariationBWorker.swift */; };
+		93426F9D280E6F1C00AC15BA /* VariationBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F97280E6F1C00AC15BA /* VariationBViewController.swift */; };
+		93426F9E280E6F1C00AC15BA /* VariationBPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F98280E6F1C00AC15BA /* VariationBPresenter.swift */; };
+		93426F9F280E6F1C00AC15BA /* VariationBInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F99280E6F1C00AC15BA /* VariationBInteractor.swift */; };
+		93426FA0280E6F1C00AC15BA /* VariationBRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F9A280E6F1C00AC15BA /* VariationBRouter.swift */; };
+		93426FA1280E6F1C00AC15BA /* VariationBModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93426F9B280E6F1C00AC15BA /* VariationBModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +58,6 @@
 		93426F3C280E6A8D00AC15BA /* BTesting-VIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BTesting-VIP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93426F3F280E6A8D00AC15BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93426F41280E6A8D00AC15BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		93426F43280E6A8D00AC15BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93426F46280E6A8D00AC15BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93426F49280E6A8D00AC15BA /* BTesting_VIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BTesting_VIP.xcdatamodel; sourceTree = "<group>"; };
 		93426F4B280E6A8E00AC15BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +68,25 @@
 		93426F5F280E6A8F00AC15BA /* BTesting-VIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BTesting-VIPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93426F63280E6A8F00AC15BA /* BTesting_VIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTesting_VIPUITests.swift; sourceTree = "<group>"; };
 		93426F65280E6A8F00AC15BA /* BTesting_VIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTesting_VIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93426F74280E6CBB00AC15BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93426F76280E6CC600AC15BA /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		93426F78280E6CCD00AC15BA /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		93426F7A280E6CD100AC15BA /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		93426F7C280E6CD700AC15BA /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		93426F7E280E6CDD00AC15BA /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		93426F82280E6E7400AC15BA /* PurchaseFlowABTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseFlowABTest.swift; sourceTree = "<group>"; };
+		93426F8A280E6F0D00AC15BA /* VariationAPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationAPresenter.swift; sourceTree = "<group>"; };
+		93426F8B280E6F0D00AC15BA /* VariationAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationAViewController.swift; sourceTree = "<group>"; };
+		93426F8C280E6F0D00AC15BA /* VariationARouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationARouter.swift; sourceTree = "<group>"; };
+		93426F8D280E6F0D00AC15BA /* VariationAWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationAWorker.swift; sourceTree = "<group>"; };
+		93426F8E280E6F0D00AC15BA /* VariationAInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationAInteractor.swift; sourceTree = "<group>"; };
+		93426F8F280E6F0D00AC15BA /* VariationAModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationAModels.swift; sourceTree = "<group>"; };
+		93426F96280E6F1C00AC15BA /* VariationBWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBWorker.swift; sourceTree = "<group>"; };
+		93426F97280E6F1C00AC15BA /* VariationBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBViewController.swift; sourceTree = "<group>"; };
+		93426F98280E6F1C00AC15BA /* VariationBPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBPresenter.swift; sourceTree = "<group>"; };
+		93426F99280E6F1C00AC15BA /* VariationBInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBInteractor.swift; sourceTree = "<group>"; };
+		93426F9A280E6F1C00AC15BA /* VariationBRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBRouter.swift; sourceTree = "<group>"; };
+		93426F9B280E6F1C00AC15BA /* VariationBModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariationBModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +137,10 @@
 		93426F3E280E6A8D00AC15BA /* BTesting-VIP */ = {
 			isa = PBXGroup;
 			children = (
+				93426F81280E6E6A00AC15BA /* Shared */,
+				93426F80280E6E6200AC15BA /* Scene */,
 				93426F3F280E6A8D00AC15BA /* AppDelegate.swift */,
 				93426F41280E6A8D00AC15BA /* SceneDelegate.swift */,
-				93426F43280E6A8D00AC15BA /* ViewController.swift */,
 				93426F45280E6A8D00AC15BA /* Main.storyboard */,
 				93426F4B280E6A8E00AC15BA /* Assets.xcassets */,
 				93426F4D280E6A8E00AC15BA /* LaunchScreen.storyboard */,
@@ -128,6 +165,71 @@
 				93426F65280E6A8F00AC15BA /* BTesting_VIPUITestsLaunchTests.swift */,
 			);
 			path = "BTesting-VIPUITests";
+			sourceTree = "<group>";
+		};
+		93426F72280E6C8400AC15BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93426F73280E6C9100AC15BA /* View */,
+				93426F76280E6CC600AC15BA /* HomeWorker.swift */,
+				93426F78280E6CCD00AC15BA /* HomeModels.swift */,
+				93426F7A280E6CD100AC15BA /* HomeInteractor.swift */,
+				93426F7C280E6CD700AC15BA /* HomePresenter.swift */,
+				93426F7E280E6CDD00AC15BA /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		93426F73280E6C9100AC15BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93426F74280E6CBB00AC15BA /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93426F80280E6E6200AC15BA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				93426F89280E6F0200AC15BA /* VariationB */,
+				93426F88280E6EF900AC15BA /* VariationA */,
+				93426F72280E6C8400AC15BA /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		93426F81280E6E6A00AC15BA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				93426F82280E6E7400AC15BA /* PurchaseFlowABTest.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		93426F88280E6EF900AC15BA /* VariationA */ = {
+			isa = PBXGroup;
+			children = (
+				93426F8E280E6F0D00AC15BA /* VariationAInteractor.swift */,
+				93426F8F280E6F0D00AC15BA /* VariationAModels.swift */,
+				93426F8A280E6F0D00AC15BA /* VariationAPresenter.swift */,
+				93426F8C280E6F0D00AC15BA /* VariationARouter.swift */,
+				93426F8B280E6F0D00AC15BA /* VariationAViewController.swift */,
+				93426F8D280E6F0D00AC15BA /* VariationAWorker.swift */,
+			);
+			path = VariationA;
+			sourceTree = "<group>";
+		};
+		93426F89280E6F0200AC15BA /* VariationB */ = {
+			isa = PBXGroup;
+			children = (
+				93426F99280E6F1C00AC15BA /* VariationBInteractor.swift */,
+				93426F9B280E6F1C00AC15BA /* VariationBModels.swift */,
+				93426F98280E6F1C00AC15BA /* VariationBPresenter.swift */,
+				93426F9A280E6F1C00AC15BA /* VariationBRouter.swift */,
+				93426F97280E6F1C00AC15BA /* VariationBViewController.swift */,
+				93426F96280E6F1C00AC15BA /* VariationBWorker.swift */,
+			);
+			path = VariationB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +363,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93426F44280E6A8D00AC15BA /* ViewController.swift in Sources */,
+				93426F75280E6CBB00AC15BA /* HomeViewController.swift in Sources */,
+				93426F93280E6F0D00AC15BA /* VariationAWorker.swift in Sources */,
+				93426F95280E6F0D00AC15BA /* VariationAModels.swift in Sources */,
+				93426F90280E6F0D00AC15BA /* VariationAPresenter.swift in Sources */,
 				93426F40280E6A8D00AC15BA /* AppDelegate.swift in Sources */,
+				93426F7B280E6CD100AC15BA /* HomeInteractor.swift in Sources */,
 				93426F42280E6A8D00AC15BA /* SceneDelegate.swift in Sources */,
+				93426F77280E6CC600AC15BA /* HomeWorker.swift in Sources */,
+				93426F7D280E6CD700AC15BA /* HomePresenter.swift in Sources */,
+				93426FA1280E6F1C00AC15BA /* VariationBModels.swift in Sources */,
 				93426F4A280E6A8D00AC15BA /* BTesting_VIP.xcdatamodeld in Sources */,
+				93426F9E280E6F1C00AC15BA /* VariationBPresenter.swift in Sources */,
+				93426F91280E6F0D00AC15BA /* VariationAViewController.swift in Sources */,
+				93426FA0280E6F1C00AC15BA /* VariationBRouter.swift in Sources */,
+				93426F9C280E6F1C00AC15BA /* VariationBWorker.swift in Sources */,
+				93426F92280E6F0D00AC15BA /* VariationARouter.swift in Sources */,
+				93426F79280E6CCD00AC15BA /* HomeModels.swift in Sources */,
+				93426F9D280E6F1C00AC15BA /* VariationBViewController.swift in Sources */,
+				93426F9F280E6F1C00AC15BA /* VariationBInteractor.swift in Sources */,
+				93426F83280E6E7400AC15BA /* PurchaseFlowABTest.swift in Sources */,
+				93426F94280E6F0D00AC15BA /* VariationAInteractor.swift in Sources */,
+				93426F7F280E6CDD00AC15BA /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
